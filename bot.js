@@ -85,4 +85,4 @@ if (message.author.bot) return;
   };
 });
 
-client.login(process.env.NjQ2ODY5MjgyMTA1NDU4NzA5.XlcT_w.Bsqip0pkwjVZbgnlFBQBgSe_hdc)
+client.login(process.env.config.token)
