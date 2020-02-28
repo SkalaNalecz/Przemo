@@ -1,11 +1,11 @@
 {
-  “name”: “Przemek”,
-  “version”: “1.0.0”,
-  “description”: “Ja Przemek. Powitaæ.”,
-  “main”: “bot.js”,
-  “author”: “Skala”,
+  "name": "Przemek",
+  "version": "1.0.0",
+  "description": "Ja Przemek. Powitaæ.",
+  "main": "bot.js",
+  "author": "Skala",
   "scripts": {
     "start": "node bot.js"
   },
-  “dependencies”: {}
+  "dependencies": {}
 }
