@@ -85,4 +85,4 @@ if (message.author.bot) return;
   };
 });
 
-client.login(process.env.config.token)
+client.login(process.env.BOT_TOKEN)
