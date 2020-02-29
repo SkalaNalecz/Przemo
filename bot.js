@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
+const token = process.env.BOT_TOKEN;
 client.on("message", (message) => {
 if (message.author.bot) return;
   if (message.content.toLowerCase().includes("dobranoc")) {
@@ -85,4 +85,4 @@ if (message.author.bot) return;
   };
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(BOT_TOKEN).catch(err => console.log(err));
